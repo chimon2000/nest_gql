@@ -1,0 +1,27 @@
+{
+  "name": "web-preact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel --no-autoinstall index.html"
+  },
+  "dependencies": {
+    "@types/graphql": "^0.12.7",
+    "apollo-cache-inmemory": "^1.1.12",
+    "apollo-client": "^2.2.8",
+    "apollo-link-rest": "^0.2.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.8.0",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0",
+    "react-apollo": "^2.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0"
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  }
+}
